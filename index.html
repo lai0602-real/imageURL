@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        <img id="theImg">
+    <body style="margin: 0; background-color: #000; overflow: hidden;">
+        <img id="theImg" style="width: 100vw; height: 100vh; object-fit: contain;">
         <script>
             const src = new URLSearchParams(window.location.search).get("src");
             document.getElementById("theImg").src = src;
