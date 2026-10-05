@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <img id="theImg">
+        <script>
+            const src = new URLSearchParams(window.location.search).get("src");
+            document.getElementById("theImg").src = src;
+        </script>
+    </body>
+</html>
